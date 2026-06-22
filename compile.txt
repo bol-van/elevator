@@ -1,0 +1,2 @@
+cc elevator.c -municode -Os -s -o elevator
+cl elevator.c kernel32.lib user32.lib shell32.lib ntdll64.lib /link /nodefaultlib
